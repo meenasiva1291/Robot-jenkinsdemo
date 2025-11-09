@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/KetkiAshtankar/RobotFrameWork.git'
+                git branch: 'main', url: 'https://github.com/meenasiva1291/Robot-jenkinsdemo.git'
             }
         }
         stage('Install Requirements') {
